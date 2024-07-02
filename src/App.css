@@ -3,17 +3,16 @@
   padding: 0px;
 }
 .main{
-  background-color: aqua;
+  background-color:skyblue;
   height: 100vh;
   display: flex;
  justify-content: center;
-  
   align-items: center;
   gap: 30px;
 }
 .search{
   width: 500px;
-
+  margin-top: -200px;
  height: 150px;
   gap: 5px;
 }
@@ -48,6 +47,7 @@
 .result{
   background-color: white;
   width: 300px;
+  margin-top: -200px;
   border-radius: 10px;
 
 }
