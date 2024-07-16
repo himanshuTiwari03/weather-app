@@ -6,6 +6,7 @@
   background-color:skyblue;
   height: 100vh;
   display: flex;
+  flex-wrap: wrap;
  justify-content: center;
   align-items: center;
   gap: 30px;
@@ -66,4 +67,18 @@
 
 .nloader{
   position: absolute;
+}
+@media only screen and (max-width:865px){
+  
+  .main{
+    padding: 20px;
+    
+  }
+  .result{
+    margin-top: -820px;
+    margin-right: auto;
+  }
+  .search h1{
+   font-size: 40px;
+  }
 }
